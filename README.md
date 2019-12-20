@@ -5,8 +5,9 @@ Parse through end of Suricata log and e-mail alerts.
 
 ### Save surialert.py to Suricata server and create cron job
 
-```/etc/crontab
+```
 # RUN EVERY 5 MINUTES
+# Save to /etc/crontab
 
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
 SHELL=/bin/sh
