@@ -14,3 +14,5 @@ SHELL=/bin/sh
 
 */5 * * * * root cd /var/log/suricata && /usr/bin/python3 /var/log/suricata/surialert.py
 ```
+
+If log contains search strings specified in script, an e-mail alert will be sent.
