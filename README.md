@@ -1,5 +1,5 @@
 # Suricata Alert
-Parse through end of Suricata log and e-mail alerts.
+Parse through Suricata log and send e-mail alerts.
 
 # How to use
 
