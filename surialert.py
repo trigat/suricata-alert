@@ -18,7 +18,8 @@ receive_address = "receiver@protonmail.com"
 password = "PASSWORD"
 
 search_strings = ["NMAP OS Detection Probe", "SCAN Suspicious", \
-                 "SSH brute forcing", "other than Reverse Proxy"]
+                 "SSH brute forcing", "other than Reverse Proxy", \
+                 "ET SCAN Possible Nmap User-Agent Observed"]
 
 def send_mail(line_group):
     group_text = ('\n'.join(line_group)) # use join to form string with deque
