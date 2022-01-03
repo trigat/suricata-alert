@@ -40,4 +40,4 @@ with open(suricata_log) as log:
             if string_item in line:
                 #print(line)
                 send_mail(line_group)
-                sys.exit()
+                sys.exit(0)  # don't send e-mails in a loop
